@@ -2,6 +2,6 @@ from app import app
 
 
 
-@app.route("/")
-def hello_world():
-    return "hello world"
+@app.route("/predict")
+def predict():
+    return "this method will you the prediction model"
